@@ -5,9 +5,8 @@ KELAS	: D
 IDENTITAS PROYEK
 
 Tema : akademik
-Nama Organisasi : Riset Inovasi Sarjana Akademik (RISA)
+Nama Organisasi : Rumah Inovasi Siswa Aktif (RISA)
 
-Lingkup Layanan : Organisasi ini bergerak di bidang pengembangan riset ilmiah, 
-peningkatan mutu publikasi akademik mahasiswa, 
-serta penyelenggaraan pelatihan dan seminar 
-pendukung literasi digital serta analisis informasi ilmiah bagi civitas akademika
+Lingkup Layanan : Organisasi ini bergerak di bidang pengelolaan kegiatan ekstrakurikuler,
+pembinaan kelompok belajar siswa, 
+serta penyelenggaraan kompetisi akademik dan sains antar kelas di lingkungan sekolah
