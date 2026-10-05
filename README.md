@@ -1,6 +1,7 @@
-NAMA	: Richo sayu rahmadhani
+ NAMA	: Richo sayu rahmadhani
 NPM	: 25430084
-KELAS	: D
+KELAS	: c
+ 
 
 IDENTITAS PROYEK
 
