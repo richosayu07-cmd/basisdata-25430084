@@ -5,10 +5,12 @@
 **Tanggal:** 4 Oktober 2026  
 
 ## 1. Tujuan Praktikum
-(Tulis ulang tujuan praktikum Modul 1 dengan bahasa sendiri, maksimal 5 baris, yang mencakup pemahaman layanan MariaDB, penggunaan CLI dan phpMyAdmin, pengamanan akun, serta inisialisasi repositori Git).
+Praktikum Modul 1 ini bertujuan untuk memahami cara mengoperasikan layanan basis data MariaDB melalui XAMPP Control Panel secara mandiri. Mahasiswa dilatih menggunakan antarmuka Command Line Interface (CLI) dan phpMyAdmin untuk mengelola server. Selain itu, praktikum ini melatih kemampuan dalam mengamankan hak akses akun *root*, menerapkan prinsip akun khusus, serta melakukan inisialisasi dan pengunggahan berkas laporan ke repositori Git/GitHub.
 
 ## 2. Ringkasan Dasar Teori
-(Tuliskan pemahaman sendiri mengenai arsitektur klien-server MariaDB, peran XAMPP, perbedaan CLI dan phpMyAdmin, serta pentingnya prinsip hak akses minimum/least privilege, maksimal setengah halaman tanpa menyalin langsung dari buku).
+MariaDB beroperasi menggunakan arsitektur klien-server, di mana aplikasi klien mengirimkan permintaan ke server basis data untuk diproses. XAMPP berfungsi sebagai paket perangkat lunak lokal yang menyatukan server web Apache dan server MariaDB dalam satu lingkungan kerja praktis. Pengelolaan data dapat dilakukan melalui Command Line Interface (CLI) untuk eksekusi perintah berbasis teks yang cepat, maupun melalui phpMyAdmin berbasis web untuk kemudahan visualisasi tabel. 
+
+Dalam pengelolaan basis data, penerapan prinsip hak akses minimum (*least privilege*) sangat penting guna menjaga keamanan data dengan cara membatasi hak akses setiap pengguna hanya pada basis data yang menjadi tanggung jawabnya saja, sehingga memperkecil risiko kebocoran atau perubahan data yang tidak sah.
 
 ## 3. Hasil Langkah Percobaan
 (Sertakan tangkapan layar langkah-langkah kunci Modul 1 sesuai checklist khusus, masing-masing diberikan keterangan singkat):
