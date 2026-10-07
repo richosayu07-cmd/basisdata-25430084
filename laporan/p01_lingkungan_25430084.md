@@ -68,7 +68,7 @@ Menggunakan bantuan AI (Gemini) untuk membantu menjelaskan rincian pesan galat (
 
 ## 10. Bukti Git
 - **Tautan Repositori:** [https://github.com/richosayu07-cmd/basisdata-25430084](https://github.com/richosayu07-cmd/basisdata-25430084)[cite: 15, 25]
-- **Hash Commit:** `[e709553/p01: milestone proyek 1]`
+- **Hash Commit:** `[06dd84c/p01_lingkungan_25430084.md]`
 
 ## 11. Checklist
 
