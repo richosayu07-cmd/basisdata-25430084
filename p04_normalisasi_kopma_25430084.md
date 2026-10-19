@@ -14,6 +14,18 @@
    * **Bentuk Relasi 1NF:**  
      `NOTA_1NF` (`no_nota_penjualan`, `kode_barang`, `tgl_penjualan`, `kode_petugas`, `nama_petugas`, `no_anggota`, `nama_anggota`, `nama_barang`, `qty_detail_penjualan`, `harga_satuan_detail_penjualan`, `subtotal_detail_penjualan`, `jumlah_penjualan`, `diskon_penjualan`, `total_penjualan`)[cite: 64]
 
+3. **Ilustrasi Wujud Tabel Data (UNF ke 1NF):**
+   * **Bentuk UNF (Contoh Data):**
+     | no_nota_penjualan | tgl_penjualan | kode_petugas | nama_petugas | no_anggota | nama_anggota | { kode_barang, nama_barang, qty_detail_penjualan, harga_satuan_detail_penjualan, subtotal_detail_penjualan } |
+     | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+     | NOTA-001 | 2026-05-01 | P01 | Andi | A01 | Budi | BRG01, Buku, 2, 5000, 10000 <br> BRG02, Pulpen, 1, 3000, 3000 |
+
+   * **Bentuk 1NF (Setelah Dipecah):**
+     | no_nota_penjualan | kode_barang | tgl_penjualan | kode_petugas | nama_petugas | no_anggota | nama_anggota | nama_barang | qty_detail_penjualan | harga_satuan_detail_penjualan | subtotal_detail_penjualan |
+     | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+     | NOTA-001 | BRG01 | 2026-05-01 | P01 | Andi | A01 | Budi | Buku | 2 | 5000 | 10000 |
+     | NOTA-001 | BRG02 | 2026-05-01 | P01 | Andi | A01 | Budi | Pulpen | 1 | 3000 | 3000 |
+
      ### D.2: Menuliskan Dependensi Fungsional (FD)
 
 Dependensi fungsional diturunkan langsung dari aturan bisnis (*Business Rules*) Modul 2, bukan dari contoh data[cite: 48, 64]. Aturan ini menyatakan bahwa nilai pada atribut sebelah kiri menentukan dengan pasti nilai pada atribut sebelah kanan ($A \rightarrow B$).
@@ -97,4 +109,3 @@ Berdasarkan studi kasus Kopma, ketergantungan fungsionalnya adalah:
   UPDATE penjualan 
   SET nama_anggota = 'Budi Santoso, S.Kom.' 
   WHERE no_nota_penjualan = 'NOTA-001';
-  
