@@ -7,7 +7,7 @@
 * **Tema Proyek**: Akademik
 * **Nama Organisasi**: Rumah Inovasi Siswa Aktif (RISA)
 * **Lingkup Layanan**: Organisasi ini bergerak di bidang pengelolaan kegiatan ekstrakurikuler, pembinaan kelompok belajar siswa, serta penyelenggaraan kompetisi akademik dan sains antar kelas di lingkungan sekolah.
-* **Parameter P**: 46 *(Perhitungan: $P = 40 + (84 \bmod 7) = 46$)*
+* **Parameter P 3: 46 *(Perhitungan: $P = 40 + (84 \bmod 7) = 46$)*
 
 ---
 
@@ -88,13 +88,15 @@ Status Kelulusan : LULUS SELEKSI / MENANG
 
 ## 6. Kebutuhan Informasi (KI)
 
-1. **KI-01**: **Rekapitulasi Siswa Aktif** — Menampilkan rekapitulasi jumlah siswa aktif yang mengikuti kegiatan ekstrakurikuler dan kelompok belajar berdasarkan kelas.
-2. **KI-02**: **Laporan Presensi Latihan** — Menampilkan lembar daftar hadir presensi siswa dalam kegiatan latihan ekstrakurikuler dan bimbingan kelompok belajar.
-3. **KI-03**: **Rekapitulasi Juara Kompetisi** — Menampilkan perolehan medali dan peringkat juara kompetisi sains antar kelas secara periodik.
-4. **KI-04**: **Laporan Keaktifan Pembina** — Menampilkan rekapitulasi kinerja dan tingkat keaktifan mentor/pembina kelompok belajar RISA.
-5. **KI-05**: **Daftar Siswa Berprestasi** — Menampilkan daftar peringkat siswa berprestasi berdasarkan akumulasi skor kelompok belajar dan hasil perlombaan.
+KI-01: Rekapitulasi Mahasiswa Aktif — Menampilkan daftar dan jumlah mahasiswa yang berstatus aktif berdasarkan data mahasiswa dan kelas yang diikuti.
 
----
+KI-02: Laporan Pengisian KRS — Menampilkan informasi pengisian Kartu Rencana Studi (KRS) mahasiswa berdasarkan semester, tahun ajaran, dan status persetujuan.
+
+KI-03: Informasi Mata Kuliah dan Kelas — Menampilkan daftar mata kuliah yang dibuka pada setiap semester beserta kode kelas, ruangan, dan kapasitas kelas.
+
+KI-04: Laporan Dosen Pengampu — Menampilkan informasi dosen yang mengajar pada setiap kelas mata kuliah beserta peran masing-masing dosen.
+
+KI-05: Rekapitulasi Nilai Mahasiswa — Menampilkan daftar nilai mahasiswa berdasarkan mata kuliah, kelas, semester, dan tahun ajaran.---
 
 ## 7. Matriks CRUD
 
